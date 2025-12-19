@@ -30,118 +30,6 @@
   <script src="script.js"></script>
 </body>
 </html>
-CSS (styles.css)
-css
-Salin kode
-/* Reset default margin and padding */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
-}
-
-header {
-  background-color: #333;
-  padding: 10px 20px;
-}
-
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-.navbar .logo a {
-  color: white;
-  font-size: 24px;
-  font-weight: bold;
-  text-decoration: none;
-}
-
-.nav-links {
-  list-style: none;
-  display: flex;
-}
-
-.nav-links li {
-  margin: 0 15px;
-}
-
-.nav-links a {
-  color: white;
-  text-decoration: none;
-  font-size: 18px;
-  transition: color 0.3s;
-}
-
-.nav-links a:hover {
-  color: #f39c12;
-}
-
-/* Mobile Menu */
-.menu-toggle {
-  display: none;
-  cursor: pointer;
-  flex-direction: column;
-}
-
-.menu-toggle .bar {
-  width: 25px;
-  height: 3px;
-  margin: 4px 0;
-  background-color: white;
-}
-
-@media screen and (max-width: 768px) {
-  .nav-links {
-    display: none;
-    width: 100%;
-    text-align: center;
-    position: absolute;
-    top: 60px;
-    left: 0;
-    background-color: #333;
-    padding: 10px 0;
-  }
-
-  .nav-links li {
-    margin: 15px 0;
-  }
-
-  .nav-links.active {
-    display: block;
-  }
-
-  .menu-toggle {
-    display: flex;
-  }
-}
-JavaScript (script.js)
-javascript
-Salin kode
-const mobileMenu = document.getElementById("mobile-menu");
-const navLinks = document.querySelector(".nav-links");
-
-mobileMenu.addEventListener("click", () => {
-  navLinks.classList.toggle("active");
-});
-Penjelasan:
-HTML: Membuat struktur navbar dengan logo dan beberapa menu (Beranda, Tentang, Layanan, Kontak). Terdapat juga tombol untuk menu responsif.
-
-CSS: Mengatur gaya untuk navbar, termasuk warna, ukuran font, dan tata letak. Di bagian responsif, navbar disembunyikan dan diganti dengan tombol hamburger pada ukuran layar kecil.
-
-JavaScript: Menambahkan fungsionalitas untuk tombol hamburger, yang akan menampilkan atau menyembunyikan menu ketika diklik pada layar kecil.
-
-Semoga ini membantu! Jika ada yang perlu diubah atau ditambah, beri tahu saya.
-
-
 
 
 <div class="container">
@@ -193,4 +81,5 @@ Semoga ini membantu! Jika ada yang perlu diubah atau ditambah, beri tahu saya.
 </body>
 
 </html>
+
 
