@@ -1,164 +1,66 @@
-[13.44, 12/12/2025] epul: * {
+body {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
     font-family: Arial, sans-serif;
+    background: #e9eef5;
 }
 
-body {
-    background: #f3ebe7;
-    display: flex;
-    justify-content: center;
-    padding: 20px;
-}
-
-.container {
-    width: 800px;
-    display: flex;
-    background: #f7e5dd;
-    border-radius: 10px;
-    overflow: hidden;
-}
-
-/* LEFT SIDE */
-.left {
-    width: 35%;
-    background: #b6856a;
-    padding: 20px;
+.header {
+    background: #219a02;
     color: white;
+    padding: 40px 20px;
     text-align: center;
+    position: relative;
 }
 
-.photo-box img {
-    width: 100%;
-    border-radius: 8px;
-}
-
-.section-title {
-    background: #4b3a32;
-    color: white;
-    font-weight: bold;
-    padding: 8px;
-    font-size: 16px;
-    margin: 20px 0 10px;
-    border-radius: 6px;
-}
-
-.center {
-    text-align: center;
-}
-
-.contact p {
-    background: #4b3a32;
- …
-[13.44, 12/12/2025] epul: * {
+.header h1 {
+    font-size: 36px;
     margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, sans-serif;
 }
 
-body {
-    background: #f3ebe7;
-    display: flex;
-    justify-content: center;
-    padding: 20px;
-}
-
-.container {
-    width: 800px;
-    display: flex;
-    background: #f7e5dd;
-    border-radius: 10px;
-    overflow: hidden;
-}
-
-/* LEFT SIDE */
-.left {
-    width: 35%;
-    background: #b6856a;
-    padding: 20px;
-    color: white;
-    text-align: center;
-}
-
-.photo-box img {
-    width: 100%;
-    border-radius: 8px;
-}
-
-.section-title {
-    background: #4b3a32;
-    color: white;
-    font-weight: bold;
-    padding: 8px;
-    font-size: 16px;
-    margin: 20px 0 10px;
-    border-radius: 6px;
-}
-
-.center {
-    text-align: center;
-}
-
-.contact p {
-    background: #4b3a32;
-    padding: 10px;
-    margin: 5px 0;
-    border-radius: 6px;
-}
-
-.arrow {
-    font-size: 40px;
-    margin: 30px 0;
-}
-
-.hobi {
-    line-height: 1.5;
-    color: white;
-}
-
-/* RIGHT SIDE */
-.right {
-    width: 65%;
-    padding: 30px;
-    background: #e5c0a8;
-}
-
-.data p {
-    margin-bottom: 15px;
-    font-size: 15px;
-}
-
-ul.education {
+.foto-profil {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 5px solid white;
+    border-radius: 50%;
     margin-top: 15px;
-    line-height: 1.6;
 }
 
-ul.education li {
-    margin-bottom: 10px;
-/* === Styling CTA Button === */
-,cta.button {
-    /* Gaya Visual */
-    background-color:#e74c3c; /* Warna merah kontras */
-    color,white;
-    font-weight: bold;
-
-    /* Ukuran dan Bentuk*/
-    padding: 8px 15px; /* Jarak di dalam tombol */
-    border-radius: 5px; /* Sudut membulat */
-
-    /* Efek Hover */
-    transition: background-color 0.3s ease;
+.container {
+    width: 80%;
+    max-width: 900px;
+    background: white;
+    margin: 30px auto;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
-    ,cta-button:hover {
-    background-color: #c0392b; /* Warna sedikit lebih gelap saat di-hover*/
+h2 {
+    background: #00cf5a;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 8px;
+    margin-top: 30px;
 }
-    /*Memastikan tombol tidak memiliki style link bawaan */
-    .nav-cta a{
-        teks-decoration: none;
-    }
-    .menu-tugas {
-        display: flex;
-        gap:20px;
+
+.grid {
+    display: grid;
+    grid-template-columns: 180px auto;
+    row-gap: 6px;
+    margin-top: 15px;
+}
+
+ul {
+    margin-left: 20px;
+}
+
+.foto-full {
+    width: 100%;
+    max-width: 350px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.15);
+}
