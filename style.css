@@ -137,4 +137,25 @@ ul.education {
 
 ul.education li {
     margin-bottom: 10px;
+/* === Styling CTA Button === */
+,cta.button {
+    /* Gaya Visual */
+    background-color:#e74c3c; /* Warna merah kontras */
+    color,white;
+    font-weight: bold;
+
+    /* Ukuran dan Bentuk*/
+    padding: 8px 15px; /* Jarak di dalam tombol */
+    border-radius: 5px; /* Sudut membulat */
+
+    /* Efek Hover */
+    transition: background-color 0.3s ease;
 }
+
+    ,cta-button:hover {
+    background-color: #c0392b; /* Warna sedikit lebih gelap saat di-hover*/
+}
+    /*Memastikan tombol tidak memiliki style link bawaan */
+    .nav-cta a{
+        teks-decoration: none;
+    }
