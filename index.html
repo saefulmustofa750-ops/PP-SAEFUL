@@ -1,167 +1,98 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="id">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Portofolio Saeful Mustofa</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio | Saeful Mustofa</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <div class="container">
-      <nav>
-        <div class="brand">
-          <img src="img/epul.jpeg" alt="Foto Profil (ganti dengan foto Anda)">
-          <div>
-            <h1>Saeful Mustofa</h1>
-            <div style="font-size:13px;color:var(--muted)">Mahasiswa Informatika Universitas Mayasari Bakti</div>
-          </div>
-        </div>
-        <div class="navlinks">
-          <a href="#Tentang">Tentang</a>
-          <a href="#Keterampilan">Keterampilan</a>
-          <a href="#proyek">Proyek</a>
-          <a href="#Kontak">Kontak</a>
-          <a href="#Pengumpulan tugas">Pengumpulan tugas</a>
-          </a>
-        </div>
-      </nav>
+
+<!-- NAVBAR -->
+<header class="navbar">
+  <div class="logo">LOGO</div>
+  <nav>
+    <a href="#home">Beranda</a>
+    <a href="#about">Tentang Saya</a>
+    <a href="#skills">keterampilan </a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Kontak</a>
+    <a href="#pengumpulan tugas">pengumpulan tugas</a>
+  </nav>
+</header>
+
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="hero-text">
+    <h1>Hai Selamat Datang <span>Di Website Saeful Mustofa</span></h1>
+    <p>
+      Selamat datang di website saya!
+Saya adalah mahasiswa Universitas Mayasari Bakti yang berdomisili di Pangandaran.
+Di sini kamu bisa mengenal saya lebih dekat, mulai dari hobi, aktivitas, hingga hal-hal yang saya sukai.
+Terima kasih sudah berkunjung!
+    </p>
+    <div class="hero-btn">
+      <a href="#projects" class="btn primary">Proyek saya</a>
+      <a href="#contact" class="btn secondary">Hubungi saya</a>
     </div>
-  </header>
+  </div>
 
-  <main class="container">
-    <section class="hero">
-      <div class="intro">
-        <h2>Saeful <strong>Mustofa</strong></h2>
-        <p>Saya adalah mahasiswa Informatika di Universitas Mayasari Bakti dengan hobi ngarit dan main game. Saya tertarik pada pengembangan web, data, dan desain antarmuka pengguna.</p>
-        <div class="cta">
-          <button class="btn btn-primary" onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">Hubungi Saya</button>
-          <a class="btn btn-ghost" href="#projects">Lihat Proyek</a>
-        </div>
+  <div class="hero-img">
+    <img src="FOTO/FOTOPROFIL.jpeg" alt="Profile">
+  </div>
+</section>
 
-        <section id="about" style="margin-top:20px">
-          <h3>Tentang Saya</h3>
-          <p style="color:var(--muted)"></p>Saya sedang menempuh studi S1 Informatika, fokus pada pengembangan web dan analisis data. .</p>
-        </section>
-      </div>
+<!-- ABOUT -->
+<section class="about" id="about">
+  <h2>Tentang saya</h2>
+  <p>
+    Nama saya <b>Saeful Mustofa</b>, mahasiswa <b>Teknik Informatika</b>.
+     Saya adalah mahasiswa Universitas Mayasari Bakti yang tinggal di Pangandaran. Saya memiliki ketertarikan di bidang teknologi, kreativitas digital, dan pengembangan diri.Di waktu luang, saya gemar bermain Mobile Legends serta melakukan modifikasi motor sebagai hobi dan sarana menyalurkan kreativitas.
+    </p>
+  </p>
+  <p><b>Alamat:</b> Dusun Cintakarya Rt002/Rw001 ,Desa Cisarua, Kecamatan Langkaplancar, Kabupaten Pangandaran, Jawa Barat, Indonesia</p>
+</section>
 
-      <aside class="profile-card">
-        <img src="img/Fotoprofil.jpg  " alt="Foto Profil (ganti)">
-        <div class="meta">
-          <div>📍 Indonesia</div>
-          <div>✉️ saefulmustofa750@gmail.com</div>
-        </div>
-      </aside>
-    </section>
+<!-- SKILLS -->
+<section class="skills" id="skills">
+  <h2>Keahlian Saya</h2>
+  <div class="skills-grid">
+    <div class="skill-card">Mengedit</div>
+    <div class="skill-card">Desain</div>
+    <div class="skill-card">ngutak-ngatik Motor</div>
+    <div class="skill-card">push rank</div>
+    <div class="skill-card">suka tidur</div>
+  </div>
+</section>
 
-    <section id="skills">
-      <h3>Keahlian</h3>
-      <div class="grid-3" style="margin-top:12px">
-        <div class="card">
-          <h4>Pengembangan Web</h4>
-          <ul>
-            <li>HTML, CSS, JavaScript</li>
-            <li>React.js / Vue.js (dasar)</li>
-            <li>Responsive design & accessibility</li>
-            <li>iOt</li>
-          </ul>
-        </div>
-        <div class="card">
-          <h4>Data & Backend</h4>
-          <ul>
-            <li>Python, SQL</li>
-            <li>Analisis data & visualisasi</li>
-          </ul>
-        </div>
-        <div class="card">
-          <h4>Tools</h4>
-          <ul>
-            <li>Git, VSCode</li>
-            <li>Figma (UI/UX)</li>
-            </div>
-        <div class="card">
-          <h4>Mekanik Dadakan</h4>
-          <ul>
-            <li>Membongkar tidak terima pasang</li>
-            <li>Tarif bayar mekanik 4 juta</li>
-          </ul>
-        </div>
-      </div>
-    </section>
-
-    <section id="projects">
-      <h3>Proyek Pilihan</h3>
-      <div class="projects" style="margin-top:12px">
-        <div class="card">
-          <img class="project-img" src="img/proyek/proyek1.jpg" alt="Project 1">
-          <h4>Nama Proyek 1</h4>
-          <p style="color:var(--muted)">CSS LEVEL DASAR</p>
-        </div>
-        <div class="card">
-          <img class="project-img" src="img/proyek/proyek2.jpg" alt="Project 2">
-          <h4>Nama Proyek 2</h4>
-          <p style="color:var(--muted)">BELAJAR HTML.</p>
-        </div>
-      </div>
-    </section>
-
-    <section id="experience">
-      <h3>Pendidikan</h3>
-      <div style="display:grid;gap:10px;margin-top:12px">
-        <div class="card">
-          <h4>Mahasiswa Informatika — Universitas Mayasari Bakti</h4>
-          <div style="color:var(--muted);font-size:14px">2025 — Sekarang</div>
-          <p style="margin-top:8px;color:var(--muted)">Sedang belajar mandiri</p>
-        </div>
-        <div class="card">
-          <h4>Prodi Teknik Informatika</h4>
-          <div style="color:var(--muted);font-size:14px">Angkatan 2025</div>
-          <p style="margin-top:8px;color:var(--muted)">Mahasiswa Universitas Mayasari Bakti.</p>
-        </div>
-      </div>
-    </section>
-
-    <section id="contact">
-      <h3>Kontak</h3>
-      <div style="display:flex;gap:18px;margin-top:12px;flex-wrap:wrap">
-        <div class="card" style="flex:1;min-width:260px">
-          <form onsubmit="event.preventDefault(); alert('Terima kasih — pesan terkirim! (ini demo)')">
-            <div style="margin-bottom:8px"><label>Nama</label><input placeholder="Nama Anda" required></div>
-            <div style="margin-bottom:8px"><label>Email</label><input placeholder="Email anda" required></div>
-            <div style="margin-bottom:8px"><label>Pesan</label><textarea rows="5" placeholder="Tulis pesan..." required></textarea></div>
-            <button class="btn btn-primary" type="submit">Kirim</button>
-          </form>
-        </div>
-        <div style="flex:1;min-width:220px">
-          <div class="card">
-            <h4>Details</h4>
-            <p style="color:var(--muted)">Email: saefulmustofa750@gmail.com<br>Telepon: 0854321018472<br>Lokasi: Pangandaran,Jawa Barat, Indonesia</p>
-          </div>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <footer>
-    <div class="container">
-      <div style="display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap">
-        <div>© <span id="year"></span> Anu Saya hak cipta</div>
-        <div style="color:var(--muted)">Made in Langkaplancar </div>
-      </div>
+<!-- PROJECTS -->
+<section class="projects" id="projects">
+  <h2>My Projects</h2>
+  <div class="project-grid">
+    <div class="project-card">
+      <img src="PROYEK/PROYEK2/PROYEK2.jpg" alt="Project 1">
+      <h3>Project 1</h3>
+      <p>HTML</p>
     </div>
-  </footer>
 
-  <script>
-    document.getElementById('year').textContent = new Date().getFullYear();
-    // Smooth scroll for nav links
-    document.querySelectorAll('a[href^="#"]').forEach(a => {
-      a.addEventListener('click', e => {
-        e.preventDefault();
-        const id = a.getAttribute('href').substring(1);
-        const el = document.getElementById(id);
-        if(el) el.scrollIntoView({behavior:'smooth'});
-      });
-    });
-  </script>
+    <div class="project-card">
+      <img src="PROYEK/PROYEK1/PROYEK1.jpg" alt="Project 2">
+      <h3>Project 2</h3>
+      <p>CSS</p>
+    </div>
+  </div>
+</section>
+
+<!-- Kontak -->
+<section class="contact" id="contact">
+  <h2>Contact</h2>
+  <p>Email: saefulmustofa750@gmail.com</p>
+  <p>WhatsApp: 085321018472</p>
+</section>
+
+<footer>
+  <p>© 2025 MADE IN LANGKAPLANCAR</p>
+</footer>
+
 </body>
 </html>
-
