@@ -10,12 +10,21 @@ body {
   color: #e5e7eb;
 }
 
+nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
 /* NAVBAR */
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 60px;
+  padding: 15px 10px;
 }
 
 .logo {
@@ -35,6 +44,44 @@ body {
   color: #3b82f6;
 }
 
+
+
+
+/* dropdown */
+.dropdown {
+    list-style: none;
+    position: relative;
+}
+
+.submenu {
+  list-style: none;
+  justify-content: center;
+  position: absolute;
+  top: 30px;
+  left: 25%;
+  min-width: 50px;
+  background-color: blueviolet;
+  display: none;
+  z-index: 10;
+  text-align: center;    
+  margin-right: 10px;
+}
+
+/* tampil saat hover */
+.dropdown:hover .submenu {
+    display: block;
+}
+
+/* item link */
+.submenu li a {
+    display: block;              /* PENTING */
+    color: white;
+    padding: 10px 16px;
+    text-decoration: none;
+    border-top: 1px solid #00e1ff;
+    white-space: nowrap; 
+        /* mencegah teks turun baris */
+}
 /* HERO */
 .hero {
   display: flex;
@@ -81,10 +128,10 @@ body {
 }
 
 .hero-img img {
-  width: 280px;
-  border-radius: 50%;
-  background: #052de2;
-  padding: 10px;
+  width: 180px;
+  border-radius: 25%;
+  background: #ffffff;
+  padding: 5px;
 }
 
 /* SECTION */
