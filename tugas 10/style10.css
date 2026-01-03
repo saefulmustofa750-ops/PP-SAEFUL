@@ -1,0 +1,113 @@
+/* Reset dasar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Body */
+body {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #eef1ff, #e4e8ff);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+}
+
+/* Judul utama */
+h1 {
+    font-size: 32px;
+    color: #2c2c54;
+    margin-bottom: 30px;
+}
+
+/* Card document */
+.document {
+    background-color: #ffffff;
+    width: 350px;
+    padding: 30px;
+    border-radius: 14px;
+    text-align: center;
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.12);
+    margin-bottom: 35px;
+    transition: transform 0.3s ease;
+}
+
+.document:hover {
+    transform: translateY(-6px);
+}
+
+/* Subjudul */
+.document h3 {
+    font-size: 20px;
+    color: #4b4b7a;
+    margin-bottom: 20px;
+}
+
+/* Tombol */
+.btn {
+    display: inline-block;
+    padding: 12px 22px;
+    background-color: #5f27cd;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 15px;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #341f97;
+    box-shadow: 0 8px 16px rgba(95, 39, 205, 0.4);
+    transform: scale(1.05);
+}
+
+.btn:active {
+    transform: scale(0.95);
+}
+
+/* List container */
+.list {
+    background-color: #ffffff;
+    width: 380px;
+    padding: 25px 30px;
+    border-radius: 14px;
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.12);
+}
+
+/* Hilangkan bullet */
+.list ul {
+    list-style: none;
+}
+
+/* Item list */
+.list li {
+    margin-bottom: 14px;
+}
+
+/* Link list */
+.list a {
+    display: block;
+    padding: 12px 15px;
+    background-color: #f4f6ff;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #2c2c54;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+/* Hover link */
+.list a:hover {
+    background-color: #5f27cd;
+    color: #ffffff;
+    transform: translateX(6px);
+}
+
+/* Aktif */
+.list a:active {
+    transform: scale(0.97);
+}
